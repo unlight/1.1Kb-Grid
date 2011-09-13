@@ -1,14 +1,14 @@
 /* ================ */
-/* = The 1Kb Grid = */     /* 10 columns, 80 pixels each, with 20 pixel gutter  1000px *
+/* = The 1Kb Grid = */     /* 10 columns, 80 pixels each, with 20 pixel gutter = 1000px */
 /* ================ */
 
 /* Modified by S */
 
-/*.Row {
-	width: 1000px;
+.Row {
+/*	width: 1000px; */
 	margin: 0 auto;
 	overflow: hidden;
-}*/
+}
 
 .Row .Row {
 	margin: 0 -1%;
@@ -21,7 +21,20 @@
 	margin: 0 1%;
 	overflow: hidden;
 	float: left;
-	/*display: inline;*/
+	display: inline;
+}
+
+.IE6 .Column1, 
+.IE6 .Column2, 
+.IE6 .Column3, 
+.IE6 .Column4, 
+.IE6 .Column5,
+.IE6 .Column6, 
+.IE6 .Column7, 
+.IE6 .Column8, 
+.IE6 .Column9, 
+.IE6 .Column10 {
+	margin: 0 0.95%;
 }
 
 .Column1 { width:8%; }
@@ -34,3 +47,4 @@
 .Column8 { width:78%; }
 .Column9 { width:88%; }
 .Column10 { width:98%; }
+
